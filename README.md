@@ -1,2 +1,2 @@
 # LogoObjectsSample
-Logo Objects Kullanarak Fatura Kesme Örneği
+Delphi ile Logo Objects Kullanarak Fatura Kesme Örneği
