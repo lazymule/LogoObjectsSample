@@ -72,7 +72,7 @@ Fatura := LogoBaglantisi.NewDataObject(doSalesInvoice);
   begin
       SonucStr := 'Sýçtýk : ' + Fatura.ErrorDesc + IntToStr(Fatura.ErrorCode)
   end;
-Fatura.ExportToXML('Root',ExtractFilePath(Vcl.Forms.Application.ExeName) +'fatura.xml');
+Fatura.ExportToXML('SALES_INVOICES',ExtractFilePath(Vcl.Forms.Application.ExeName) +'fatura.xml');
 Memo1.Lines.Add(SonucStr)      ;
 end;
 procedure TForm1.FormCreate(Sender: TObject);
